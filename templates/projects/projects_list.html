@@ -1,0 +1,36 @@
+{% if projects %}
+    <ul class="projects">
+        {% for project in projects %}
+            <li>
+                <a href="">
+                    {{ project.title }}</a>
+                <br />
+                {% if show_tags %}
+                    Tags:
+                    {% if project.tags.all %}
+                        <ul class="tags">
+                            {% for tag in project.tags.all %}
+                                <li>
+                                    <a href="/tag/{{ tag.name }}/">{{ tag.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+
+                    {% else %}
+                        None.
+                    {% endif %}
+                    <br />
+                {% endif %}
+                {% if show_user %}
+                    Posted by:
+                    <a href="/user/{{ user.username }}/"
+                       class="username">
+                        {{user.username }}</a>
+                {% endif %}
+            </li>
+        {% endfor %}
+
+    </ul>
+{% else %}
+    <p>No projects found.</p>
+{% endif %}

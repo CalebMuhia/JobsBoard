@@ -12,7 +12,7 @@ static = os.path.join(
 
 urlpatterns = patterns('',
     # Examples:
-    # url(r'^$', 'schoolproject.views.home', name='home'),
+     url(r'^$', 'projects.views.dashboard', name='home'),
     # url(r'^schoolproject/', include('schoolproject.foo.urls')),
 
     # Uncomment the admin/doc line below to enable admin documentation:

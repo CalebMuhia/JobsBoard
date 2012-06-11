@@ -131,6 +131,8 @@ INSTALLED_APPS = (
     'profiles',
 )
 AUTH_PROFILE_MODULE = "clientprofile.UserProfile"
+LOGIN_REDIRECT_URL = '/'
+
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to

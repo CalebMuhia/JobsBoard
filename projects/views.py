@@ -6,6 +6,7 @@ from django.http import HttpResponseRedirect
 from django.shortcuts import render_to_response
 from django.template import context
 from django.template.context import RequestContext
+from projects.forms import SearchForm
 from projects.models import Projects, ProjectForm, Project_categories
 from taggit.models import Tag
 
@@ -60,3 +61,44 @@ def project_detail(request):
 @login_required()
 def project_creation_success(request):
     return render_to_response('projects/success.html', {'user':request.user})
+
+
+@login_required
+def search_project(request):
+    form=SearchForm()
+    projects=[]
+    show_results=False
+    if 'query' in request.GET:
+        show_results=True
+        query=request.GET['query'].strip()
+        if query:
+            form=SearchForm({'query':query})
+            projects=Projects.objects.filter(title__icontains=query)[:10]
+    if request.GET.has_key('ajax'):
+        return render_to_response('projects/projects_list.html', {'form':form,'projects':projects,'show_results':show_results,'show_user':True,'show_tags':True,'user':request.user})
+    else:
+        return render_to_response('projects/search.html', {'form':form,'projects':projects,'show_results':show_results,'show_user':True,'show_tags':True,'user':request.user})
+
+
+def search(request):
+    form=SearchForm()
+    projects=[]
+    show_results=False
+    if 'query' in request.GET:
+        show_results=True
+        query=request.GET['query'].strip()
+        if query:
+            form=SearchForm({'query':query})
+            projects=Projects.objects.filter(title__icontains=query)[:10]
+    return render_to_response("projects/search_page.html",{'form':form,'projects':projects,'user':request.user})
+
+
+
+@login_required()
+def dashboard(request):
+
+
+    categories = Project_categories.objects.order_by('name')
+    projects = Projects.objects.order_by('date_created')
+
+    return render_to_response('index.html',{'categories':categories,'projects':projects,'user':request.user})

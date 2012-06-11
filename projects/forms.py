@@ -1,4 +1,4 @@
-from django.forms import forms
+from django import forms
 
 __author__ = 'caleb'
 
@@ -6,6 +6,6 @@ __author__ = 'caleb'
 
 class SearchForm(forms.Form):
     query=forms.CharField(
-        label=u'Enter the keyword you would like to search for',
+        label=u'Job Search',
         widget= forms.TextInput(attrs={'size':32})
     )
