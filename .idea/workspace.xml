@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29ef6da-a1ea-40c6-9566-75c42ddbc0e3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev.db" afterPath="$PROJECT_DIR$/dev.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/search.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
     </list>
     <ignored path="schoolproject.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +45,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="12" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.8834197">
+            <state line="41" column="12" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-14.208333">
               <folding />
             </state>
           </provider>
@@ -86,10 +85,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="search.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="search.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/static/search.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
+            <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.29268292">
               <folding />
             </state>
           </provider>
@@ -551,7 +550,11 @@
       <created>1339437355165</created>
       <updated>1339437355165</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="updates">
+      <created>1339438933179</created>
+      <updated>1339438933179</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -656,13 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/search.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/search.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="23" selection-start="187" selection-end="354" vertical-scroll-proportion="-5.625">
@@ -750,7 +746,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="12" selection-start="1088" selection-end="1088" vertical-scroll-proportion="0.8834197">
+        <state line="41" column="12" selection-start="1088" selection-end="1088" vertical-scroll-proportion="-14.208333">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.29268292">
           <folding />
         </state>
       </provider>
