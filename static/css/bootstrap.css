@@ -19,6 +19,21 @@ nav,
 section {
   display: block;
 }
+
+.user_utils{
+    float: right;
+
+}
+.user_utils ul{
+    list-style-type: none;}
+.user_utils ul li{ display: inline; }
+
+.user_utils ul li a
+{
+    text-decoration: none;
+    padding: .2em 1em;
+}
+
 audio,
 canvas,
 video {
