@@ -1,8 +1,8 @@
 {% extends "base.html"%}
 {%  block content %}
     {% if user.is_authenticated %}
-        <div class="">
-        <h3> </h3>
+
+        <div class="container-fluid">
 
                 <div class="span3">
                     <div class="well sidebar-nav">
@@ -10,6 +10,7 @@
                             <li class="nav-header">Your preferred categories</li>
                             {% for category in categories %}
                                 <li><a href="">{{ category.name }}</a></li>
+
                             {% endfor %}
                         </ul>
 
@@ -21,17 +22,21 @@
 
 
 
-            <div>{% for project in projects %}
+        <div class="span9">
+            <div class="hero-unit">
+                {% for project in projects %}
                 <ul>
 
                    <ul><a href=""> {{ project.title }}</a></ul>
+                    <p>{{ project.description }}</p>
 
 
                 </ul>
+                {% endfor %}
+             </div>
+        </div>
 
 
-            {% endfor %}
-            </div>
         </div>
     {% endif %}
 {%endblock%}
