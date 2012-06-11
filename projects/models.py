@@ -43,6 +43,7 @@ class Projects(models.Model):
 class ProjectForm(ModelForm):
     class Meta:
         model = Projects
+        fields = ('title','description','date_created','tags','suggested_budget','category')
 
 
 
