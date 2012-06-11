@@ -49,11 +49,11 @@ def create_project(request,):
 create_project = login_required(create_project)
 
 
-
+@login_required()
 def edit_project(request):
     pass
 
-
+@login_required()
 def project_detail(request):
     pass
 
