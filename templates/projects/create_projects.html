@@ -5,9 +5,14 @@
    <div>
        <form action="" method="Post">
            {% csrf_token %}
+           <table>
            {{ formset }}
-           <input type="submit" value="Submit project" name="next">
+               <tr>
 
+                   <input type="submit" value="Submit project" name="next">
+               </tr>
+
+           </table>
        </form>
    </div>
 

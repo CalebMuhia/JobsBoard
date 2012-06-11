@@ -63,7 +63,7 @@
 
                 </ul>
                 {% if user.is_authenticated %}
-                    <p class="navbar-text pull-right"><a href="{% url auth_logout  %}">logout</a>
+                    <p class="navbar-text pull-right"><a href="{% url auth_logout  %}">logout</a></p>
                     <p class="navbar-text pull-right">Logged in as <a href="/profiles/{{ user.username }}">{{ user.username }}</a></p>
 
                 {% else %}
@@ -90,12 +90,11 @@
     </header>
 
     <!-- Main hero unit for a primary marketing message or call to action -->
-    <div class="span4">
-    <div class="hero-unit">
+
 
         {%block content%}{%endblock%}
-     </div>
-    </div>
+
+
 </div>
 <hr>
 
