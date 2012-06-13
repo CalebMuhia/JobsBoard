@@ -7,6 +7,29 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+#apply_button{
+
+    clear: both;
+}
+.tags{
+float: left;
+    clear: both;
+
+}
+.tags ul{
+list-style-type: none;}
+.tags ul li{ display: inline; }
+
+.tags ul li a
+{
+text-decoration: none;
+    padding: .2em 1em;
+}
+
+
+
+
+}
 article,
 aside,
 details,

@@ -64,8 +64,11 @@ def edit_project(request):
     pass
 
 @login_required()
-def project_detail(request):
-    pass
+def project_detail(request,num):
+    num = int(num)
+    project = Projects.objects.get(pk=num)
+
+    return render_to_response('projects/project.html',{'project':project,'user':request.user})
 
 @login_required()
 def project_creation_success(request):

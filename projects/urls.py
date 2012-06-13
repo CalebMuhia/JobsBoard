@@ -12,13 +12,11 @@ urlpatterns = patterns('',
     url(r'^edit/$',
         views.edit_project,
         name='edit_project'),
-    url(r'^/$',
-        views.project_detail,
-        name='project_detail'),
     url(r'^success/$',
         views.project_creation_success,
         name='success'),
-    url(r'^search_project$', views.search_project, name="project_search" )
+    url(r'^search_project$', views.search_project, name="project_search" ),
+    url(r'^item/(\d+)/', views.project_detail, name = "view_project")
     )
 
 

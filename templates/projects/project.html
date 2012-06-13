@@ -1,0 +1,30 @@
+{% extends "base.html"%}
+{%  block content %}
+
+
+    <div class="container">
+         <h2>Project title- {{ project.title }}</h2><br>
+
+        <div class="span11">
+            <h3>Job Description</h3>
+            <p>{{ project.description|linebreaks }}</p><br>
+        </div>
+
+        <div class="tags">
+            <h3>Skills Required</h3>
+            {% if project.tags.all %}
+
+                <ul>
+                    {% for tag in project.tags.all %}
+                        <li>
+                            <a href="">{{ tag.name }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+        </div>
+    <div id="apply_button" >
+        <input type="button" value="Apply to this job">
+    </div>
+   </div>
+{%endblock%}
