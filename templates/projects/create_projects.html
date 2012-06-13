@@ -1,19 +1,37 @@
 {% extends "base.html"%}
+{% load usergroupcheck %}
+
 {% block title %}Create a Project{% endblock %}
 {%  block content %}
 
-   <div>
+<div>
+     {% ifusergroup Clients %}
+   <div class="span5">
        <form action="" method="Post">
            {% csrf_token %}
            <table>
+
            {{ formset }}
                <tr>
+                   <td>
+                       <input type="submit" value="Submit project" >
+                   </td>
 
-                   <input type="submit" value="Submit project" name="next">
                </tr>
 
            </table>
        </form>
    </div>
+     {% endifusergroup %}
+    
+         {% ifusergroup Workers %}
+<p>You do not have access to this page click here to go back to your <a href="{%   url home %}"></a>dashboard</p>
+    {% endifusergroup %}
+
+
+
+
 
 {%endblock%}
+
+</div>
