@@ -24,4 +24,7 @@ urlpatterns = patterns('',
          {'document_root': settings.STATIC_ROOT}),
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
+    (r'^timepiece/', include('timepiece.urls')),
+    (r'^selectable/', include('selectable.urls')),
+
 )

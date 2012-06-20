@@ -22,15 +22,19 @@
 
 
 
-        <div class="span9">
+        <div class="span8">
+            <h2>Recent Job Posts</h2>
             <div class="hero-unit">
+
 
                 {% for project in projects %}
                 <ul>
 
-                   <ul><a href="/projects/item/{{ project.pk }}"> {{ project.title }}</a></ul>
+                   <ul><a href="/projects/item/{{ project.pk }}"> <strong><u>{{ project.title }}</u></strong></a></ul><br>
+                    {{ project.description|truncatewords_html:70 }}
 
-
+                    <br>
+                    <br>
 
                 </ul>
                 {% endfor %}

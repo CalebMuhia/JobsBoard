@@ -2,14 +2,1405 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29ef6da-a1ea-40c6-9566-75c42ddbc0e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/projects/project.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/accept.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/anchor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_cascade.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_double.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_form.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_form_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_form_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_form_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_form_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_home.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_osx.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_osx_terminal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_side_boxes.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_side_contract.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_side_expand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_side_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_side_tree.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_split.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_tile_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_tile_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_gallery.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_list.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_view_tile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_xp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/application_xp_terminal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_branch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_divide.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_inout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_join.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_merge.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_redo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_refresh_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_rotate_anticlockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_rotate_clockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_switch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_turn_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_turn_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_undo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/asterisk_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/asterisk_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_bronze_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_bronze_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_bronze_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_gold_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_gold_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_gold_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_silver_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_silver_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/award_star_silver_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/basket_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bell_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bin_closed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bin_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bomb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_addresses.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/book_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/box.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/brick_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bricks.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/briefcase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bug_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/building_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_arrow_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_arrow_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_arrow_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_arrow_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_black.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_toggle_minus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_toggle_plus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/bullet_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cake.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calculator_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_view_day.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_view_month.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/calendar_view_week.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/camera_small.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cancel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/car.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/car_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/car_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cart_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_burn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_eject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cd_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_bar_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_curve_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_line_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_organisation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_organisation_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_organisation_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/chart_pie_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/clock_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cog_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/coins.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/coins_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/coins_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/color_swatch.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/color_wheel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comment_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comment_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comment_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comments.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comments_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/comments_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/compress.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/computer_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/contrast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/contrast_decrease.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/contrast_high.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/contrast_increase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/contrast_low.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_eject.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_eject_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_end_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_equalizer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_equalizer_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_fastforward.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_fastforward_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_pause.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_pause_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_play.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_play_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_repeat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_repeat_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_rewind.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_rewind_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_start.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_start_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/control_stop_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/controller.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/controller_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/controller_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/controller_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/creditcards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cross.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/css.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/css_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/css_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/css_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/css_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cup_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cursor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cut.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/cut_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/database_table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/date_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/disconnect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/disk_multiple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/door.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/door_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/door_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/door_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drink_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_burn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_cd_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_network.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/drive_web.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/dvd_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/email_open_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_evilgrin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_grin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_happy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_smile.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_surprised.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_tongue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_unhappy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_waii.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/emoticon_wink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/error_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/error_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/error_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/exclamation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/eye.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/feed_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/film_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/flag_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_bell.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_brick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_bug.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_explore.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_feed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_page_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/folder_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/font.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/font_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/font_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/font_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/group_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/heart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/heart_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/heart_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/help.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/hourglass.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/hourglass_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/hourglass_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/hourglass_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/hourglass_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/house.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/house_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/house_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/html.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/html_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/html_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/html_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/html_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/image.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/image_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/image_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/image_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/image_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/images.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/information.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ipod.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ipod_cast.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ipod_cast_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ipod_cast_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ipod_sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/joystick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/joystick_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/joystick_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/joystick_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/key_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/key_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/key_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/keyboard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/keyboard_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/keyboard_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/keyboard_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_content.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_header.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/layout_sidebar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightbulb.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightbulb_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightbulb_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightbulb_off.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightning_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightning_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lightning_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_break.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/link_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_break.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lock_open.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_flatbed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/lorry_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/magifier_zoom_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/magnifier.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/magnifier_zoom_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/male.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/map_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_bronze_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_bronze_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_bronze_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_bronze_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_bronze_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_gold_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_gold_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_gold_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_gold_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_gold_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_silver_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_silver_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_silver_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_silver_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/medal_silver_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_dollar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_euro.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_pound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/money_yen.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/monitor_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/mouse.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/mouse_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/mouse_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/mouse_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/music.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/new.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/newspaper.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/newspaper_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/newspaper_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/newspaper_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/newspaper_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/note_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/overlays.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/package_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_attach.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_acrobat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_actionscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_c.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_camera.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_cd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_code_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_coldfusion.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_compressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_copy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_cplusplus.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_csharp.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_cup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_dvd.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_excel.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_find.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_flash.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_freehand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_h.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_medal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_office.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_paint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_paste.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_php.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_powerpoint.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_stack.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_swoosh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_text.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_text_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_tux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_visualstudio.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_width.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_white_zip.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/page_world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/paintbrush.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/paintcan.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/paste_plain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/paste_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pencil.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pencil_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pencil_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pencil_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/phone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/phone_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/phone_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/phone_sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/photo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/photo_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/photo_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/photo_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/photos.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/picture_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pictures.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pilcrow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pill.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pill_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pill_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/pill_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/plugin_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/printer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/printer_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/printer_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/printer_empty.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/printer_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rainbow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_disk.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_magnify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_picture.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/report_word.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/resultset_first.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/resultset_last.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/resultset_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/resultset_previous.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rosette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rss.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rss_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rss_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rss_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/rss_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_get.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/ruby_put.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_code.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_code_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_palette.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/script_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_chart.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_compressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_connect.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_database.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/server_uncompressed.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shading.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_middle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_align_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_flip_horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_flip_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_group.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_handles.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_move_back.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_move_backwards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_move_forwards.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_move_front.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_rotate_anticlockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_rotate_clockwise.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_square_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shape_ungroup.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shield_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shield_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/shield_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sitemap.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sitemap_color.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound_low.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound_mute.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sound_none.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/spellcheck.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_8ball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_basketball.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_football.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_golf.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_raquet.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_shuttlecock.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_soccer.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sport_tennis.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/star.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/status_away.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/status_busy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/status_offline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/status_online.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/stop.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/style.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/style_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/style_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/style_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/style_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/sum.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tab.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tab_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tab_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tab_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tab_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_gear.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_multiple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_refresh.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_relationship.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_row_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_row_insert.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/table_sort.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_blue_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_blue_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_blue_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tag_yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/telephone_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/television.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/television_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/television_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_align_center.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_align_justify.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_align_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_align_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_allcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_bold.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_columns.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_dropcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_4.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_5.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_heading_6.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_horizontalrule.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_indent.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_indent_remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_italic.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_kerning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_letter_omega.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_letterspacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_linespacing.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_list_bullets.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_list_numbers.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_lowercase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_padding_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_padding_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_padding_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_padding_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_replace.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_signature.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_smallcaps.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_strikethrough.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_subscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_superscript.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_underline.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/text_uppercase.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/textfield.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/textfield_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/textfield_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/textfield_key.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/textfield_rename.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/thumb_down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/thumb_up.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tick.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/time.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/time_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/time_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/time_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/timeline_marker.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/transmit_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/tux.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_comment.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_female.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_gray.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/user_suit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vcard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vcard_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vcard_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vcard_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vector.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vector_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/vector_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/wand.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_clouds.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_cloudy.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_lightning.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_rain.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_snow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/weather_sun.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/webcam.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/webcam_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/webcam_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/webcam_error.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world_edit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/world_link.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/wrench.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/wrench_orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/xhtml.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/xhtml_add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/xhtml_delete.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/xhtml_go.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/xhtml_valid.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/zoom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/zoom_in.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/images/icons/zoom_out.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_arrows_leftright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_arrows_updown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_folder_closed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_11x11_icon_resize_se.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_35x9_colorpicker_indicator.gif.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_7x7_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_7x7_arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_7x7_arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/222222_7x7_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_arrows_leftright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_arrows_updown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_folder_closed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_11x11_icon_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_7x7_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_7x7_arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_7x7_arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/454545_7x7_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_arrows_leftright.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_arrows_updown.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_close.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_doc.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_folder_closed.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_folder_open.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_minus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_11x11_icon_plus.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_7x7_arrow_down.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_7x7_arrow_left.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_7x7_arrow_right.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/888888_7x7_arrow_up.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/calendar.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/dadada_40x100_textures_02_glass_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/e6e6e6_40x100_textures_02_glass_75.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/ffffff_40x100_textures_01_flat_0.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/img/ffffff_40x100_textures_02_glass_65.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/middleware.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/paginator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/templates/pagination/pagination.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/templatetags/pagination_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pagination/tests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/forms/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/forms/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/forms/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/forms/widgets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/registry.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/static/selectable/css/dj.selectable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/static/selectable/js/jquery.dj.selectable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/templates/selectable/jquery-css.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/templates/selectable/jquery-js.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/templatetags/selectable_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/decorators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/functests.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/templatetags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/tests/widgets.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/selectable/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/creator/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/creator/actions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/creator/changes.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/creator/freezer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/firebird.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/generic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/mysql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/oracle.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/postgresql_psycopg2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/sql_server/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/sql_server/pyodbc.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/db/sqlite3.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/exceptions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/hacks/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/hacks/django_1_0.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/annoying_autoonetoone.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/django_audit_log.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/django_objectpermissions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/django_tagging.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/django_taggit.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/django_timezones.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/introspection_plugins/geodjango.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/logger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/convert_to_south.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/datamigration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/graphmigrations.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/migrate.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/migrationcheck.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/schemamigration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/startmigration.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/syncdb.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/test.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/management/commands/testserver.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/migration/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/migration/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/migration/migrators.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/migration/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/modelsinspector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/orm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/signals.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/autodetection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/migrations/0001_depends_on_unmigrated.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/migrations/0002_depends_on_unknown.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/migrations/0003_depends_on_higher.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/migrations/0004_higher.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/brokenapp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_a/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_a/migrations/0001_first.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_a/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_a/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_b/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_b/migrations/0001_first.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_b/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/circular_b/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/db.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/db_mysql.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/0001_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/0002_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/0003_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/0004_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/0005_a.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_a/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/0001_b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/0002_b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/0003_b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/0004_b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/0005_b.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_b/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/0001_c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/0002_c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/0003_c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/0004_c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/0005_c.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/deps_c/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/emptyapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/emptyapp/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/emptyapp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/migrations/0001_spam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/migrations/0002_eggs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/migrations/0003_alter_spam.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/fakeapp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/freezer.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/inspector.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/logger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/logic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/migrations/0001_first.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/migrations/0002_second.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/migrations/0003_third.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/tests/otherfakeapp/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/utils/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/utils/datetime_utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/south/v2.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/bar-graph.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/css/books.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/jquery.jqplot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/jquery.jqplot.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.BezierCurveRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.BezierCurveRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.barRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.barRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.blockRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.blockRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.bubbleRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.bubbleRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasAxisLabelRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasAxisLabelRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasAxisTickRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasAxisTickRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasOverlay.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasOverlay.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasTextRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.canvasTextRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.categoryAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.categoryAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.ciParser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.ciParser.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.cursor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.cursor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.dateAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.dateAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.donutRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.donutRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.dragable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.dragable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.enhancedLegendRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.enhancedLegendRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.funnelRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.funnelRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.highlighter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.highlighter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.json2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.json2.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.logAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.logAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.mekkoAxisRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.mekkoAxisRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.mekkoRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.mekkoRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.meterGaugeRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.meterGaugeRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.ohlcRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.ohlcRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.pieRenderer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.pieRenderer.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.pointLabels.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.pointLabels.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.trendline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/jqplot/plugins/jqplot.trendline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/css/jquery-ui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/css/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/js/clear_form.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/timepiece/js/jquery.ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/autocompleteselect.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/business/create_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/business/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/business/relationship.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/business/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/person/create_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/person/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/person/settings.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/person/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/project/create_edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/project/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/project/relationship.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/project/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/_date_filters.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/_entry_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/_weekly_entry_list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/bar_graph.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/base.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/contract/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/contract/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/dashboard.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/entry/add_update_entry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/entry/clock_in.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/entry/clock_out.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/entry/delete_entry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/entry/reject_entry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/_invoice_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/_invoice_subheader.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/confirm.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/delete.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/edit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/list.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/make_invoice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/remove_invoice_entry.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice/view_entries.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/invoice_time_sheet.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/people/change_status.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/projection/projection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/projects/view.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/reports/general_ledger.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/reports/hourly.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/reports/summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/context_processors.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/fields.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/forms.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/lookups.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/management/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/management/commands/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/management/commands/check_entries.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0001_initial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0002_auto__add_field_entry_billable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0003_auto__add_field_projectcontract_status.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0004_auto__add_assignmentallocation.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0005_auto__add_field_contractassignment_min_hours_per_week.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0006_auto__add_field_projectrelationship_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0007_contact_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0008_auto__del_field_projectrelationship_user__chg_field_projectrelationshi.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0009_auto__chg_field_projectrelationship_contact__add_field_contractassignm.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0010_contact_user_asignment.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0011_auto__del_field_contractassignment_user__chg_field_contractassignment_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0012_auto__chg_field_contractassignment_contact.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0013_auto__add_field_personrepeatperiod_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0014_contact_user_repeateperiod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0015_auto__del_field_personrepeatperiod_user__chg_field_personrepeatperiod_.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0016_auto__add_field_personschedule_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0017_contact_user_schedule.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0018_auto__del_field_personschedule_user__chg_field_personschedule_contact.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0019_auto__add_relationshiptype.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0020_rename_related_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0021_auto.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0022_import_rel_types.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0023_auto.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0024_remove_interactions.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0025_auto__add_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0026_auto__add_field_project_new_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0027_import_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0028_auto__chg_field_project_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0029_export_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0030_auto__del_field_project_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0031_auto__del_field_project_new_business__add_field_project_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0032_auto__chg_field_project_business.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0033_contact_to_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0034_auto__add_field_activity_billable__add_field_project_billable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0035_billable_to_develop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0036_auto__del_field_entry_billable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0037_auto__chg_field_entry_activity.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0038_auto__del_field_project_billable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0039_auto__add_field_entry_status.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0040_auto__add_field_attribute_billable.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0041_auto__add_userprofile.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0042_auto__del_field_userprofile_default_activity__chg_field_userprofile_us.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0043_auto__add_activitgroup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0044_auto__add_field_project_activity_group.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0045_auto__add_entrygroup__add_field_entry_entry_group.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0046_auto__add_field_entrygroup_modified__chg_field_entrygroup_created.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0047_auto__add_contractmilestone.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0048_auto__add_hourgroup.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0049_auto__chg_field_entrygroup_number.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0050_auto.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0051_auto__del_field_project_billing_period.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0052_auto__del_repeatperiod__del_billingwindow__del_personrepeatperiod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0053_drop_crm_tables.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0054_move_trac_environment_to_tracker_url.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/0055_auto__chg_field_project_tracker_url.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/migrations/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/models.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/projection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/static/css/bar-graph.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/static/css/books.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/templatetags/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/templatetags/math_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/templatetags/timepiece_tags.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/base.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/contracts.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/crmcontent.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/dashboard.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/general_ledger.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/invoices.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/management.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/payroll.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/project_list.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/projection.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/projects.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/reports.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/search.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/timesheet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/tests/user_settings.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/urls.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/utils.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/views.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/timepiece/widgets.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dev.db" afterPath="$PROJECT_DIR$/dev.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/urls.py" afterPath="$PROJECT_DIR$/projects/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/views.py" afterPath="$PROJECT_DIR$/projects/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schoolproject/settings.py" afterPath="$PROJECT_DIR$/schoolproject/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schoolproject/urls.py" afterPath="$PROJECT_DIR$/schoolproject/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projects/projects_list.html" afterPath="$PROJECT_DIR$/templates/projects/projects_list.html" />
     </list>
     <list id="229283ab-6322-4e31-a6e7-4b1b8fa68f74" name="New changelist" comment="" />
     <ignored path="schoolproject.iws" />
@@ -44,17 +1435,28 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="-19.375">
+            <state line="25" column="37" selection-start="771" selection-end="771" vertical-scroll-proportion="-5.75">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/schoolproject/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="82" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
+            <state line="170" column="29" selection-start="2610" selection-end="5973" vertical-scroll-proportion="6.623377">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/schoolproject/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="59" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,16 +1464,16 @@
       <file leaf-file-name="project.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/projects/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="25" selection-start="690" selection-end="690" vertical-scroll-proportion="-6.9166665">
+            <state line="25" column="25" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="bootstrap.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.25531915">
+            <state line="11" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -81,15 +1483,6 @@
         <entry file="file://$PROJECT_DIR$/projects/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="17" selection-start="3572" selection-end="3572" vertical-scroll-proportion="-54.375">
               <folding />
             </state>
           </provider>
@@ -116,7 +1509,7 @@
       <file leaf-file-name="projects_list.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/projects/projects_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="11" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-21.875">
+            <state line="35" column="11" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -148,17 +1541,17 @@
         <option value="$PROJECT_DIR$/templates/projects/projects_list.html" />
         <option value="$PROJECT_DIR$/projects/urls.py" />
         <option value="$PROJECT_DIR$/projects/views.py" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/templates/projects/project.html" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
-    <option name="y" value="53" />
-    <option name="width" value="1358" />
-    <option name="height" value="704" />
+    <option name="x" value="-1" />
+    <option name="y" value="-5" />
+    <option name="width" value="1362" />
+    <option name="height" value="774" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -243,38 +1636,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -535,28 +1896,52 @@
       <created>1339615341445</created>
       <updated>1339615341445</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="updates">
+      <created>1339624618558</created>
+      <updated>1339624618558</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="53" width="1358" height="704" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1" y="-5" width="1362" height="774" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34641638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29584774" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29449838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17278287" sideWeight="0.59861594" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17862596" sideWeight="0.7055016" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4013841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4013841" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34641638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -619,58 +2004,59 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/registration/backends/default/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/create_projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="-10.041667">
-          <folding />
-        </state>
+        <state line="36" column="7" selection-start="730" selection-end="730" vertical-scroll-proportion="-10.041667" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="17" selection-start="3572" selection-end="3572" vertical-scroll-proportion="-54.375">
-          <folding />
-        </state>
+        <state line="90" column="17" selection-start="3572" selection-end="3572" vertical-scroll-proportion="-54.375" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/search.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="172" selection-end="172" vertical-scroll-proportion="-0.625" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/templatetags/usergroupcheck.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="8" selection-start="602" selection-end="602" vertical-scroll-proportion="0.13559322">
-          <folding />
-        </state>
+        <state line="20" column="8" selection-start="602" selection-end="602" vertical-scroll-proportion="0.13559322" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/templatetags/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.050847456">
-          <folding />
-        </state>
+        <state line="1" column="0" selection-start="21" selection-end="21" vertical-scroll-proportion="0.050847456" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/static/search.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.24528302">
-          <folding />
-        </state>
+        <state line="8" column="37" selection-start="211" selection-end="211" vertical-scroll-proportion="0.24528302" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="35" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/projects/project.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="25" selection-start="690" selection-end="690" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="4" column="0" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/models.py">
@@ -678,51 +2064,30 @@
         <state line="30" column="4" selection-start="889" selection-end="905" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schoolproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="0" selection-start="3088" selection-end="3088" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/projects_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="11" selection-start="1127" selection-end="1127" vertical-scroll-proportion="-21.875">
-          <folding />
+        <state line="35" column="11" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/schoolproject/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="59" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="934" selection-end="934" vertical-scroll-proportion="-19.375">
+        <state line="25" column="37" selection-start="771" selection-end="771" vertical-scroll-proportion="-5.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/views.py">
+    <entry file="file://$PROJECT_DIR$/schoolproject/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="35" selection-start="2054" selection-end="2054" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects/project.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="25" selection-start="690" selection-end="690" vertical-scroll-proportion="-6.9166665">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="265" selection-end="265" vertical-scroll-proportion="0.25531915">
+        <state line="170" column="29" selection-start="2610" selection-end="5973" vertical-scroll-proportion="6.623377">
           <folding />
         </state>
       </provider>
