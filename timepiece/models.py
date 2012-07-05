@@ -7,6 +7,8 @@ from django.db import models
 from django.db.models import Q, Avg, Sum, Max, Min
 from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError, NON_FIELD_ERRORS
+from django.utils.translation import ugettext_lazy as _
+from taggit.managers import TaggableManager
 
 from timepiece import utils
 
@@ -66,6 +68,15 @@ class Business(models.Model):
         ordering = ('name',)
 
 
+class Project_categories(models.Model):
+    name = models.CharField(max_length=100, null=True, default="")
+
+    def __unicode__(self):
+        return self.name
+    class Meta:
+        verbose_name = _('Project Category')
+        verbose_name_plural = _('Project Categories')
+
 class Project(models.Model):
     name = models.CharField(max_length=255)
     tracker_url = models.CharField(max_length=255, blank=True, null=False,
@@ -98,6 +109,11 @@ class Project(models.Model):
         related_name='projects_with_status',
     )
     description = models.TextField()
+    tags = TaggableManager()
+    suggested_budget = models.CharField(max_length=100, default='$200')
+    category =models.ForeignKey(Project_categories, default="")
+
+
 
     class Meta:
         ordering = ('name', 'status', 'type',)

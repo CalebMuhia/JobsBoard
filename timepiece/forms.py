@@ -460,6 +460,9 @@ class ProjectForm(forms.ModelForm):
             'status',
             'activity_group',
             'description',
+            'tags',
+            'suggested_budget',
+            'category',
         )
 
     def __init__(self, *args, **kwargs):

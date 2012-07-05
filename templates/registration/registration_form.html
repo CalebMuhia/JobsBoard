@@ -1,13 +1,17 @@
 {% extends "base.html" %}
-{% block title %}Register for an account{% endblock %}
+{% block title %}Register for an account As a Contractor{% endblock %}
 {% block content %}
+
+    <h2>Register for an account As a Contractor</h2>
 <table>
-    <form method='post' action=''>{% csrf_token %}
+
+    <form method='post' action='' class="form-row" >{% csrf_token %}
         {{ form.as_p }}
-        <tr><td></td><td><input type="submit" value="Send activation email" /></td>
+        <input class="btn btn-primary" type="submit" value="Send activation email" />
     </form>
 </table>
 {% endblock %}
+
 
 
 

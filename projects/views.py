@@ -116,3 +116,5 @@ def dashboard(request):
     return render_to_response('index.html',{'categories':categories,'projects':projects,'user':request.user})
 
 
+def search_options(request):
+    return render_to_response("searchoptions.html")

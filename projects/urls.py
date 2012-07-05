@@ -16,7 +16,8 @@ urlpatterns = patterns('',
         views.project_creation_success,
         name='success'),
     url(r'^search_project$', views.search_project, name="project_search" ),
-    url(r'^item/(\d+)/', views.project_detail, name = "view_project")
+    url(r'^item/(\d+)/', views.project_detail, name = "view_project"),
+    url(r'^searchoptions$', views.search_options, name="search_options" ),
     )
 
 

@@ -26,6 +26,7 @@ consult a specific backend's documentation for details.
 from django.conf.urls.defaults import *
 
 from django.contrib.auth import views as auth_views
+from registration.views import *
 
 
 urlpatterns = patterns('',
@@ -55,4 +56,6 @@ urlpatterns = patterns('',
                        url(r'^password/reset/done/$',
                            auth_views.password_reset_done,
                            name='auth_password_reset_done'),
+                       url(r'^register_now/$',register_now, name="register_users"),
 )
+

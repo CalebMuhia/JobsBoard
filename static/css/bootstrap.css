@@ -7,6 +7,21 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+
+*{
+    padding: 0px;
+    margin: 0px;
+
+
+}
+.center
+{
+    margin: 0 auto;
+    width: 740px;
+    padding-top:20px;
+
+
+}
 #apply_button{
 
     clear: both;

@@ -1,6 +1,11 @@
-{% extends "registration/registration_base.html" %}
+{% extends "base.html" %}
 {% block title %}Login{% endblock %}
 {% block content %}
+
+     <div class="center">
+
+            <section >
+
 
 {% if form.errors %}
 <p>Your username and password didn't match. Please try again.</p>
@@ -21,6 +26,11 @@
 
 <input type="submit" value="login" />
 <input type="hidden" name="next" value="{{ next }}" />
+
 </form>
+            </section>
+    </div>
+
+
 
 {% endblock %}

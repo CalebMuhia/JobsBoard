@@ -2,11 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a29ef6da-a1ea-40c6-9566-75c42ddbc0e3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/caleb.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/new.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/registration/register_now.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/searchoptions.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0002_auto__add_field_entry_billable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0003_auto__add_field_projectcontract_status.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0004_auto__add_assignmentallocation.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0005_auto__add_field_contractassignment_min_hours_per_week.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0006_auto__add_field_projectrelationship_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0007_contact_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0008_auto__del_field_projectrelationship_user__chg_field_projectrelationshi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0009_auto__chg_field_projectrelationship_contact__add_field_contractassignm.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0010_contact_user_asignment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0011_auto__del_field_contractassignment_user__chg_field_contractassignment_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0012_auto__chg_field_contractassignment_contact.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0013_auto__add_field_personrepeatperiod_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0014_contact_user_repeateperiod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0015_auto__del_field_personrepeatperiod_user__chg_field_personrepeatperiod_.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0016_auto__add_field_personschedule_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0017_contact_user_schedule.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0018_auto__del_field_personschedule_user__chg_field_personschedule_contact.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0019_auto__add_relationshiptype.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0020_rename_related_tables.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0021_auto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0022_import_rel_types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0023_auto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0024_remove_interactions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0025_auto__add_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0026_auto__add_field_project_new_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0027_import_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0028_auto__chg_field_project_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0029_export_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0030_auto__del_field_project_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0031_auto__del_field_project_new_business__add_field_project_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0032_auto__chg_field_project_business.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0033_contact_to_user.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0034_auto__add_field_activity_billable__add_field_project_billable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0035_billable_to_develop.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0036_auto__del_field_entry_billable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0037_auto__chg_field_entry_activity.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0038_auto__del_field_project_billable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0039_auto__add_field_entry_status.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0040_auto__add_field_attribute_billable.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0041_auto__add_userprofile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0042_auto__del_field_userprofile_default_activity__chg_field_userprofile_us.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0043_auto__add_activitgroup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0044_auto__add_field_project_activity_group.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0045_auto__add_entrygroup__add_field_entry_entry_group.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0046_auto__add_field_entrygroup_modified__chg_field_entrygroup_created.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0047_auto__add_contractmilestone.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0048_auto__add_hourgroup.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0049_auto__chg_field_entrygroup_number.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0050_auto.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0051_auto__del_field_project_billing_period.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0052_auto__del_repeatperiod__del_billingwindow__del_personrepeatperiod.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0053_drop_crm_tables.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0054_move_trac_environment_to_tracker_url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/0055_auto__chg_field_project_tracker_url.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/timepiece/migrations/__init__.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/timepiece/business/view.html" afterPath="$PROJECT_DIR$/templates/timepiece/business/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/timepiece/project/view.html" afterPath="$PROJECT_DIR$/templates/timepiece/project/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html" afterPath="$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/urls.py" afterPath="$PROJECT_DIR$/projects/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/views.py" afterPath="$PROJECT_DIR$/projects/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/auth_urls.py" afterPath="$PROJECT_DIR$/registration/auth_urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/backends/default/urls.py" afterPath="$PROJECT_DIR$/registration/backends/default/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/registration/views.py" afterPath="$PROJECT_DIR$/registration/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schoolproject/settings.py" afterPath="$PROJECT_DIR$/schoolproject/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/login.html" afterPath="$PROJECT_DIR$/templates/registration/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/registration/registration_form.html" afterPath="$PROJECT_DIR$/templates/registration/registration_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timepiece/forms.py" afterPath="$PROJECT_DIR$/timepiece/forms.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timepiece/models.py" afterPath="$PROJECT_DIR$/timepiece/models.py" />
     </list>
     <list id="229283ab-6322-4e31-a6e7-4b1b8fa68f74" name="New changelist" comment="" />
     <ignored path="schoolproject.iws" />
@@ -33,28 +102,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/schoolproject/settings.py">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="0" selection-start="6263" selection-end="6263" vertical-scroll-proportion="0.0">
+            <state line="72" column="72" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html">
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timepiece/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="14" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+            <state line="351" column="28" selection-start="11842" selection-end="11842" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/timepiece/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="11" selection-start="7211" selection-end="7211" vertical-scroll-proportion="0.13">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -63,61 +132,59 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/timepiece/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/project/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="42" column="14" selection-start="1563" selection-end="1578" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/project/view.html">
+      <file leaf-file-name="registration_base.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registration/registration_base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="23" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
+            <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_edit.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/business/create_edit.html">
+      <file leaf-file-name="registration_form.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/registration/registration_form.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="7" column="49" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/timepiece/business/view.html">
+      <file leaf-file-name="register_now.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/registration/register_now.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.625">
+            <state line="21" column="51" selection-start="553" selection-end="553" vertical-scroll-proportion="0.9459459">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="0001_initial.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/timepiece/migrations/0001_initial.py">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registration/backends/default/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="43" column="33" selection-start="1847" selection-end="1868" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="timepiece_tags.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/timepiece/templatetags/timepiece_tags.py">
+      <file leaf-file-name="auth_urls.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registration/auth_urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="66" selection-start="2490" selection-end="2504" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -138,29 +205,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/templates/base.html" />
-        <option value="$PROJECT_DIR$/projects/templatetags/usergroupcheck.py" />
-        <option value="$PROJECT_DIR$/projects/forms.py" />
-        <option value="$PROJECT_DIR$/schoolproject/settings.py" />
-        <option value="$PROJECT_DIR$/static/search.js" />
-        <option value="$PROJECT_DIR$/projects/templatetags/__init__.py" />
-        <option value="$PROJECT_DIR$/templates/projects/projects_list.html" />
+        <option value="$PROJECT_DIR$/templates/timepiece/project/view.html" />
+        <option value="$PROJECT_DIR$/templates/new.html" />
         <option value="$PROJECT_DIR$/projects/urls.py" />
         <option value="$PROJECT_DIR$/projects/views.py" />
-        <option value="$PROJECT_DIR$/templates/projects/project.html" />
+        <option value="$PROJECT_DIR$/templates/searchoptions.html" />
+        <option value="$PROJECT_DIR$/timepiece/models.py" />
+        <option value="$PROJECT_DIR$/schoolproject/settings.py" />
+        <option value="$PROJECT_DIR$/timepiece/forms.py" />
         <option value="$PROJECT_DIR$/static/css/bootstrap.css" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html" />
-        <option value="$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html" />
-        <option value="$PROJECT_DIR$/templates/timepiece/business/view.html" />
-        <option value="$PROJECT_DIR$/templates/timepiece/project/view.html" />
+        <option value="$PROJECT_DIR$/templates/registration/login.html" />
+        <option value="$PROJECT_DIR$/registration/backends/default/urls.py" />
+        <option value="$PROJECT_DIR$/registration/auth_urls.py" />
+        <option value="$PROJECT_DIR$/registration/views.py" />
+        <option value="$PROJECT_DIR$/templates/registration/register_now.html" />
+        <option value="$PROJECT_DIR$/templates/registration/registration_form.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1362" />
-    <option name="height" value="744" />
+    <option name="x" value="6" />
+    <option name="y" value="58" />
+    <option name="width" value="1348" />
+    <option name="height" value="704" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -188,6 +256,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -230,60 +308,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrations" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,204 +322,8 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="schoolproject" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time-sheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time-sheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="time-sheet" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="people" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="timepiece" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="business" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="schoolproject" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="projects" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templatetags" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -504,17 +332,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PublishConfig" traceLevel="DETAILS" />
   <component name="PyConsoleOptionsProvider">
@@ -661,6 +490,7 @@
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
     <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
     <configuration useDefault="true">$USER_HOME$/.subversion_IDEA</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
   </component>
@@ -723,7 +553,11 @@
       <created>1340213560455</created>
       <updated>1340213560455</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates">
+      <created>1340227248683</created>
+      <updated>1340227248683</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -747,24 +581,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1362" height="744" extended-state="0" />
-    <editor active="false" />
+    <frame x="6" y="58" width="1348" height="704" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29449838" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29411766" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18167938" sideWeight="0.9183673" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15947612" sideWeight="0.7058824" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.08143322" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2329932" sideWeight="0.39143732" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21521036" sideWeight="0.603211" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34641638" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -828,94 +662,86 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/projects/projects_list.html">
+    <entry file="file://$PROJECT_DIR$/templates/timepiece/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="11" selection-start="1127" selection-end="1127" vertical-scroll-proportion="0.0" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/schoolproject/urls.py">
+    <entry file="file://$PROJECT_DIR$/static/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="59" selection-start="799" selection-end="799" vertical-scroll-proportion="0.0" />
+        <state line="23" column="1" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/templates/registration/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="37" selection-start="771" selection-end="771" vertical-scroll-proportion="-5.75" />
+        <state line="23" column="8" selection-start="514" selection-end="514" vertical-scroll-proportion="-8.958333" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration/backends/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="93" column="11" selection-start="3238" selection-end="3238" vertical-scroll-proportion="1.6336634" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="54" selection-start="5917" selection-end="5917" vertical-scroll-proportion="-101.875" />
+        <state line="72" column="72" selection-start="2756" selection-end="2756" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/dashboard.html">
+    <entry file="file://$PROJECT_DIR$/timepiece/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="14" selection-start="412" selection-end="412" vertical-scroll-proportion="-5.0" />
+        <state line="351" column="28" selection-start="11842" selection-end="11842" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/bar_graph.html">
+    <entry file="file://$PROJECT_DIR$/timepiece/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/schoolproject/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="0" selection-start="6263" selection-end="6263" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/projects/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="14" selection-start="643" selection-end="643" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/project/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/project/view.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="23" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/business/create_edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timepiece/migrations/0001_initial.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/timepiece/templatetags/timepiece_tags.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/timepiece/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="40" selection-start="1100" selection-end="1100" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="42" column="14" selection-start="1563" selection-end="1578" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/business/view.html">
+    <entry file="file://$PROJECT_DIR$/templates/registration/registration_base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="22" selection-start="48" selection-end="48" vertical-scroll-proportion="-0.625">
-          <folding />
-        </state>
+        <state line="0" column="25" selection-start="25" selection-end="25" vertical-scroll-proportion="-0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/people/view.html">
+    <entry file="file://$PROJECT_DIR$/templates/registration/registration_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="11" selection-start="7211" selection-end="7211" vertical-scroll-proportion="0.13">
+        <state line="7" column="49" selection-start="229" selection-end="229" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration/backends/default/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="33" selection-start="1847" selection-end="1868" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration/auth_urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="66" selection-start="2490" selection-end="2504" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/timepiece/time-sheet/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/registration/register_now.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="51" selection-start="553" selection-end="553" vertical-scroll-proportion="0.9459459">
           <folding />
         </state>
       </provider>

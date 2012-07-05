@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<div class="container">
+    <section>
+        <div class="row-fluid">
+            <div class="span6">
+                <div class="well">
+                    <h2>header1</h2>
+                    <a href="{% url registration_register %}" class="btn btn-primary btn-large"> REGISTER NOW</a>
+
+
+
+                </div>
+
+
+            </div>
+            <div class="span6">
+                <div class="well">
+                    <h2>Register your Business</h2>
+                    <a href="{% url create_business %}" class="btn btn-primary btn-large ">REGISTER NOW</a>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+    </section>
+
+
+    <!-- /container -->
+</div>
+{% endblock %}
