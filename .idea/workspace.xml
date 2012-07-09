@@ -3,11 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a29ef6da-a1ea-40c6-9566-75c42ddbc0e3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/views.py" afterPath="$PROJECT_DIR$/projects/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schoolproject/settings.py" afterPath="$PROJECT_DIR$/schoolproject/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.html" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/projects/project.html" afterPath="$PROJECT_DIR$/templates/projects/project.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/timepiece/admin.py" afterPath="$PROJECT_DIR$/timepiece/admin.py" />
     </list>
     <list id="229283ab-6322-4e31-a6e7-4b1b8fa68f74" name="New changelist" comment="" />
     <ignored path="schoolproject.iws" />
@@ -84,7 +80,7 @@
       <file leaf-file-name="project.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/projects/project.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="22" selection-start="1062" selection-end="1062" vertical-scroll-proportion="1.4655173">
+            <state line="45" column="84" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.46264368">
               <folding />
             </state>
           </provider>
@@ -506,7 +502,11 @@
       <created>1341863321010</created>
       <updated>1341863321010</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="updates">
+      <created>1341869452228</created>
+      <updated>1341869452228</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
@@ -712,7 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/projects/project.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1062" selection-end="1062" vertical-scroll-proportion="1.4655173">
+        <state line="45" column="84" selection-start="1568" selection-end="1568" vertical-scroll-proportion="0.46264368">
           <folding />
         </state>
       </provider>
