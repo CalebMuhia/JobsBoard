@@ -79,8 +79,8 @@ EMAIL_PORT = 1025
 EMAIL_HOST_USER = ""
 EMAIL_HOST_PASSWORD = ""
 EMAIL_USE_TLS = False
-DEFAULT_FROM_EMAIL = 'testing@example.com'
-
+DEFAULT_FROM_EMAIL = 'clbnjoroge@gmail.com'
+#bash-3.2$ python -m smtpd -n -c DebuggingServer localhost:1025
 
 
 ACCOUNT_ACTIVATION_DAYS = 30

@@ -4,7 +4,7 @@ import random
 import re
 
 from django.conf import settings
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, Group
 from django.db import models
 from django.db import transaction
 from django.template.loader import render_to_string
@@ -64,7 +64,7 @@ class RegistrationManager(models.Manager):
                 return user
         return False
     
-    def create_inactive_user(self, username, email, password,
+    def create_inactive_user(self, username, email, password, first_name, last_name, groups,
                              site, send_email=True):
         """
         Create a new, inactive ``User``, generate a
@@ -76,7 +76,15 @@ class RegistrationManager(models.Manager):
         
         """
         new_user = User.objects.create_user(username, email, password)
+        new_user.first_name = first_name
+        new_user.last_name = last_name
+        group = Group.objects.get(id = groups)
+        group.user_set.add(new_user)
+
+
+
         new_user.is_active = False
+
         new_user.save()
 
         registration_profile = self.create_profile(new_user)
