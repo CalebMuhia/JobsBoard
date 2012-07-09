@@ -1,7 +1,10 @@
 {% extends "base.html"%}
+{% load usergroupcheck %}
+
+
 {%  block content %}
     {% if user.is_authenticated %}
-
+      {% ifusergroup Seeker %}
         <div class="container-fluid">
 
                 <div class="span3">
@@ -43,5 +46,10 @@
 
 
         </div>
+        {% endifusergroup %}
+        {% ifusergroup  Provider %}
+
+            <p>you are a client</p>
+        {% endifusergroup %}
     {% endif %}
 {%endblock%}
