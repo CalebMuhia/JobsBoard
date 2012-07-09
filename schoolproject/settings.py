@@ -147,6 +147,7 @@ INSTALLED_APPS = (
     'selectable',
     'pagination',
     'timepiece',
+    'south',
 
 )
 AUTH_PROFILE_MODULE = "clientprofile.UserProfile"

@@ -3,7 +3,7 @@ from timepiece import models as timepiece
 
 from timepiece.projection import run_projection
 
-
+admin.site.register(timepiece.Project_categories)
 class ActivityAdmin(admin.ModelAdmin):
     model = timepiece.Activity
     list_display = ('code', 'name', 'billable')

@@ -9,6 +9,7 @@ from django.template.context import RequestContext
 from projects.forms import SearchForm, CreateProjectForm
 from projects.models import Projects, ProjectForm, Project_categories
 from taggit.models import Tag
+from timepiece import models as timepiece
 
 @login_required()
 def create_project(request,):
@@ -66,7 +67,7 @@ def edit_project(request):
 @login_required()
 def project_detail(request,num):
     num = int(num)
-    project = Projects.objects.get(pk=num)
+    project = timepiece.Project.objects.get(pk=num)
 
     return render_to_response('projects/project.html',{'project':project,'user':request.user})
 
@@ -110,8 +111,8 @@ def search(request):
 def dashboard(request):
 
 
-    categories = Project_categories.objects.order_by('name')
-    projects = Projects.objects.order_by('date_created')
+    categories = timepiece.Project_categories.objects.order_by('name')
+    projects = timepiece.Project.objects.order_by('name')
 
     return render_to_response('index.html',{'categories':categories,'projects':projects,'user':request.user})
 

@@ -3,28 +3,61 @@
 
 
     <div class="container">
-         <h2>Project title- {{ project.title }}</h2><br>
+        <div class="row">
 
-        <div class="span11">
-            <h3>Job Description</h3>
-            <p>{{ project.description|linebreaks }}</p><br>
+                <h2>Project title</h2><h3> {{ project.name }}</h3><br>
+            <div class="span8" >
+
+                    <h3>Job Description</h3>
+                    <p>{{ project.description|linebreaks }}</p><br>
+
+
+                <div class="tags">
+                    <h3>Skills Required</h3>
+                    {% if project.tags.all %}
+
+                        <ul>
+                            {% for tag in project.tags.all %}
+                                <li>
+                                    <a href="">{{ tag.name }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+                <div id="apply_button" >
+                    <a href="#" class="btn btn-primary">Apply to this job</a>
+
+                </div>
+            </div>
+            <div class="span4">
+                <h3>Job Overview</h3>
+                <table>
+                    <tr>
+                        <td>Type :</td><td>{{ project.type }}</td>
+                    </tr>
+                    <tr>
+                        <td>Status :</td><td>{{ project.status }}</td>
+                    </tr>
+                    <tr>
+                        <td>Suggested Budget :&nbsp;&nbsp; </td><td>{{ project.suggested_budget }}</td>
+                    </tr>
+                    <tr>
+                        <td>Category :</td><td><a href="#">{{ project.category }}</td>
+                    </tr>
+
+
+
+
+                </table>
+
+
+            </div>
         </div>
-
-        <div class="tags">
-            <h3>Skills Required</h3>
-            {% if project.tags.all %}
-
-                <ul>
-                    {% for tag in project.tags.all %}
-                        <li>
-                            <a href="">{{ tag.name }}</a>
-                        </li>
-                    {% endfor %}
-                </ul>
-            {% endif %}
-        </div>
-    <div id="apply_button" >
-        <input type="button" value="Apply to this job">
     </div>
-   </div>
+
+
+
+
+
 {%endblock%}

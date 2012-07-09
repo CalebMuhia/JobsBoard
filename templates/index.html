@@ -30,7 +30,7 @@
                 {% for project in projects %}
                 <ul>
 
-                   <ul><a href="/projects/item/{{ project.pk }}"> <strong><u>{{ project.title }}</u></strong></a></ul><br>
+                   <ul><a href="/projects/item/{{ project.pk }}"> <strong><u>{{ project.name }}</u></strong></a></ul><br>
                     {{ project.description|truncatewords_html:70 }}
 
                     <br>
