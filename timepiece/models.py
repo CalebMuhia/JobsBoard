@@ -47,6 +47,7 @@ class Attribute(models.Model):
 
 class Business(models.Model):
     name = models.CharField(max_length=255, blank=True)
+    user = models.ForeignKey(User, blank=False, unique=True)
     slug = models.SlugField(max_length=255, unique=True, blank=True)
     email = models.EmailField(blank=True)
     description = models.TextField(blank=True)

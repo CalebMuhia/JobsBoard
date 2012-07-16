@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 
-{% block content %}
+{% block extracontent %}
 <div class="container">
     <section>
         <div class="row-fluid">
@@ -19,7 +19,7 @@
             <div class="span6">
                 <div class="well">
                     <h2>Register your Business</h2>
-                    <a href="{% url registration_register %}?next=/timepiece/business/create/" class="btn btn-primary btn-large ">REGISTER NOW</a>
+                    <a href="{% url create_person %}?next=/timepiece/business/create/" class="btn btn-primary btn-large ">REGISTER NOW</a>
 
                 </div>
 

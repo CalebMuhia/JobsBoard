@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load usergroupcheck %}
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -86,11 +87,13 @@
 <div class="container">
 
         {% if user.is_authenticated %}
+            {% ifusergroup Seeker %}
+
         <header class="jumbotron subhead" id="overview">
             <div id="wrapper_header" >
             <div class="user_utils">
                 <ul>
-                    <li><a href="" rel="tooltip" title="User">{{ user.username }}</a></li>
+                    <li><a href="" rel="tooltip" title="User">{{ user.username }} {{ user.id }} {{ user.groups.get }}</a></li>
                     <li><a href="" rel="tooltip" title="Profile"><i class="icon-user"></i></a></li>
                     <li><a href="" rel="tooltip" title="Messages"><i class="icon-envelope"></i></a></li>
                     <li><a href="" rel="tooltip" title="Notifications"><i class="icon-exclamation-sign"></i></a></li>
@@ -98,6 +101,9 @@
                     <li><a href="" rel="tooltip" title="Help"><i class="icon-flag"></i></a></li>
 
                 </ul>
+
+
+
 
 
 
@@ -180,15 +186,105 @@
 
 
 
+
+
     </header>
-    {% endif %}
+            {% endifusergroup %}
+        {% endif %}
+
+
+        {% if user.is_authenticated %}
+            {% ifusergroup Provider %}
+
+                <header class="jumbotron subhead" id="overview">
+                    <div id="wrapper_header" >
+                        <div class="user_utils">
+                            <ul>
+                                <li><a href="" rel="tooltip" title="User">{{ user.username }} {{ user.id }} {{ user.groups.get }}</a></li>
+                                <li><a href="" rel="tooltip" title="Profile"><i class="icon-user"></i></a></li>
+                                <li><a href="" rel="tooltip" title="Messages"><i class="icon-envelope"></i></a></li>
+                                <li><a href="" rel="tooltip" title="Notifications"><i class="icon-exclamation-sign"></i></a></li>
+                                <li><a href="" rel="tooltip" title="Settings"><i class="icon-cog"></i></a></li>
+                                <li><a href="" rel="tooltip" title="Help"><i class="icon-flag"></i></a></li>
+
+                            </ul>
 
 
 
 
 
 
+                        </div>
+                        <div class="">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a href="{% url home%}">Dashboard</a></li>
+                                <li ><a href="{% url timepiece-entries %}">Your Projects</a></li>
+                                <li class=""><a href="">Other actions</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                    <div id="contain">
+
+                        <div>
+
+                        </div>
+
+                        <div class="searching">
+
+
+
+
+                            <div class="span4">
+                                <div class="control-group">
+                                    <div class="controls">
+                                        <div class="input-prepend">
+
+                                            <script>
+
+                                                $(document).ready(function()
+
+                                                        {
+
+                                                            $('#searchmetoo').load("{% url search_options %} #contractor");
+
+
+
+
+                                                        });
+
+                                            </script>
+
+                                            <div id="searchmetoo"></div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </header>
+            {% endifusergroup %}
+        {% endif %}
+
+               {% block extracontent %}
+               {% endblock %}
+
+              {% ifusergroup Seeker %}
             {%block content%}{%endblock%}
+             {% endifusergroup %}
+            {% ifusergroup Provider %}
+                <p>provider</p>
+            {% endifusergroup %}
+
+
+
 
 
 </div>

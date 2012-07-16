@@ -1,10 +1,10 @@
 {% extends "base.html"%}
-{% load usergroupcheck %}
+
 
 
 {%  block content %}
     {% if user.is_authenticated %}
-      {% ifusergroup Seeker %}
+
         <div class="container-fluid">
 
                 <div class="span3">
@@ -25,31 +25,28 @@
 
 
 
-        <div class="span8">
-            <h2>Recent Job Posts</h2>
-            <div class="hero-unit">
+            <div class="span8">
+                <h2>Recent Job Posts</h2>
+                <div class="hero-unit">
 
 
-                {% for project in projects %}
-                <ul>
+                    {% for project in projects %}
+                    <ul>
 
-                   <ul><a href="/projects/item/{{ project.pk }}"> <strong><u>{{ project.name }}</u></strong></a></ul><br>
-                    {{ project.description|truncatewords_html:70 }}
+                       <ul><a href="/projects/item/{{ project.pk }}"> <strong><u>{{ project.name }}</u></strong></a></ul><br>
+                        {{ project.description|truncatewords_html:70 }}
 
-                    <br>
-                    <br>
+                        <br>
+                        <br>
 
-                </ul>
-                {% endfor %}
-             </div>
+                    </ul>
+                    {% endfor %}
+                 </div>
+            </div>
+
+
         </div>
 
 
-        </div>
-        {% endifusergroup %}
-        {% ifusergroup  Provider %}
-
-            <p>you are a client</p>
-        {% endifusergroup %}
     {% endif %}
 {%endblock%}

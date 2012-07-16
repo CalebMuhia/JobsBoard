@@ -3,6 +3,7 @@ from timepiece.models import Entry
 from timepiece import views
 
 urlpatterns = patterns('',
+    url(r'^client_dash/$', views.client_dash, name='client_dash'),
     url(r'^$', views.view_entries, name='timepiece-entries'),
     url(r'^period/(?P<delta>\d+)/$', views.view_entries,
         name='timepiece-previous-entries'),

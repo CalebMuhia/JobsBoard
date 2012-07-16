@@ -119,3 +119,4 @@ def dashboard(request):
 
 def search_options(request):
     return render_to_response("searchoptions.html")
+

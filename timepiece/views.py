@@ -17,7 +17,8 @@ from django.core.urlresolvers import reverse, resolve
 from django.http import HttpResponse, HttpResponseRedirect
 from django.http import  Http404, HttpResponseForbidden
 from django.contrib.auth.decorators import login_required, permission_required
-from django.contrib.auth.models import User
+from django.contrib.auth.models import User, Group
+from django.contrib.auth import authenticate, login
 from django.contrib.auth import models as auth_models
 from django.db.models import Sum, Count, Q, F
 from django.db import transaction
@@ -35,6 +36,8 @@ from timepiece import utils
 from timepiece import forms as timepiece_forms
 from timepiece.templatetags.timepiece_tags import seconds_to_hours
 
+def client_dash(request):
+    return render_to_response('projects/client_dash.html',{'user':request.user} )
 
 @login_required
 def quick_search(request):
@@ -907,17 +910,18 @@ def list_businesses(request):
     return context
 
 
-@permission_required('timepiece.view_business')
+
 @render_with('timepiece/business/view.html')
 def view_business(request, business):
     business = get_object_or_404(timepiece.Business, pk=business)
     context = {
         'business': business,
+        'user':request.user,
     }
     return context
 
 
-@permission_required('timepiece.add_business')
+
 @render_with('timepiece/business/create_edit.html')
 def create_edit_business(request, business=None):
     if business:
@@ -928,7 +932,9 @@ def create_edit_business(request, business=None):
             instance=business,
         )
         if business_form.is_valid():
-            business = business_form.save()
+            business = business_form.save(commit=False)
+            business.user = request.user
+            business.save()
             return HttpResponseRedirect(
                 reverse('view_business', args=(business.pk,))
             )
@@ -943,7 +949,7 @@ def create_edit_business(request, business=None):
     return context
 
 
-@permission_required('auth.view_user')
+
 @render_with('timepiece/person/list.html')
 def list_people(request):
     form = timepiece_forms.SearchForm(request.GET)
@@ -993,8 +999,7 @@ def view_person(request, person_id):
     return context
 
 
-@permission_required('auth.add_user')
-@permission_required('auth.change_user')
+
 @render_with('timepiece/person/create_edit.html')
 def create_edit_person(request, person_id=None):
     if person_id:
@@ -1011,6 +1016,11 @@ def create_edit_person(request, person_id=None):
             person_form = timepiece_forms.CreatePersonForm(request.POST,)
         if person_form.is_valid():
             person = person_form.save()
+            g = Group.objects.get(name='Provider')
+            g.user_set.add(person)
+            user = authenticate(username=request.POST['username'], password=request.POST['password1'])
+            user.backend='django.contrib.auth.backends.ModelBackend'
+            login(request, user)
             return HttpResponseRedirect(
                 reverse('view_person', args=(person.id,))
             )
